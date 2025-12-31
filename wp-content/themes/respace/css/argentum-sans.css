@@ -1,0 +1,55 @@
+@font-face {
+	font-family: 'Argentum Sans';
+	src: url('/wp-content/themes/respace/fonts/argentum-sans/ArgentumSans-Regular.ttf') format('opentype');
+	font-weight: 400;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Argentum Sans';
+	src: url('/wp-content/themes/respace/fonts/argentum-sans/ArgentumSans-Italic.ttf') format('opentype');
+	font-weight: 400;
+	font-style: italic;
+}
+
+@font-face {
+	font-family: 'Argentum Sans';
+	src: url('/wp-content/themes/respace/fonts/argentum-sans/ArgentumSans-Medium.ttf') format('opentype');
+	font-weight: 500;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Argentum Sans';
+	src: url('/wp-content/themes/respace/fonts/argentum-sans/ArgentumSans-MediumItalic.ttf') format('opentype');
+	font-weight: 500;
+	font-style: italic;
+}
+
+@font-face {
+	font-family: 'Argentum Sans';
+	src: url('/wp-content/themes/respace/fonts/argentum-sans/ArgentumSans-SemiBold.ttf') format('opentype');
+	font-weight: 600;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Argentum Sans';
+	src: url('/wp-content/themes/respace/fonts/argentum-sans/ArgentumSans-SemiBoldItalic.ttf') format('opentype');
+	font-weight: 600;
+	font-style: italic;
+}
+
+@font-face {
+	font-family: 'Argentum Sans';
+	src: url('/wp-content/themes/respace/fonts/argentum-sans/ArgentumSans-Bold.ttf') format('opentype');
+	font-weight: 700;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Argentum Sans';
+	src: url('/wp-content/themes/respace/fonts/argentum-sans/ArgentumSans-BoldItalic.ttf') format('opentype');
+	font-weight: 700;
+	font-style: italic;
+}

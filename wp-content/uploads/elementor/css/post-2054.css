@@ -1,0 +1,46 @@
+.elementor-2054 .elementor-element.elementor-element-a66578c{--display:flex;--min-height:100vh;--gap:0px 0px;--row-gap:0px;--column-gap:0px;--margin-top:0px;--margin-bottom:0px;--margin-left:0px;--margin-right:0px;--padding-top:0px;--padding-bottom:0px;--padding-left:0px;--padding-right:0px;--z-index:9;}.elementor-2054 .elementor-element.elementor-element-b149aa8 > .elementor-widget-container{margin:0px 0px 0px 0px;padding:0px 0px 0px 0px;}/* Start custom CSS for html, class: .elementor-element-b149aa8 */.elementor-2054 .elementor-element.elementor-element-b149aa8{
+.slide {
+  width: 100vw;
+  height: 100vh;
+}
+.wrapper {
+  display: flex;
+  flex-direction: row;
+  width: 900vw;
+  transform: rotate(90deg) translateY(-100vh);
+  transform-origin: top left;
+}
+.outer-wrapper {
+  width: 100vh;
+  height: 100vw;
+  transform: rotate(-90deg) translateX(-100vh);
+  transform-origin: top left;
+  overflow-y: scroll;
+  overflow-x: hidden;
+  position: absolute;
+  scrollbar-width: none;
+  -ms-overflow-style: none;
+}
+::-webkit-scrollbar {
+  display: none;
+}
+
+@media only screen and (max-width: 768px) {
+  .wrapper {
+    transform: none;
+    flex-direction: column;
+    width: 100vw;
+  }
+  .outer-wrapper {
+    transform: none;
+    width: 100vw;
+    height: auto;
+    overflow-x: scroll;
+    overflow-y: hidden;
+  }
+  .slide {
+    width: 100vw;
+    height: auto;
+  }
+}
+}/* End custom CSS */
